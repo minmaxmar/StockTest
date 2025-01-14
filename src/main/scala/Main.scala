@@ -2,6 +2,9 @@ import scala.io.Source
 // 0
 // 1
 // 2
+// 3
+// 4
+// 5
 object Main {
   private def readTxt(path: String): List[Array[String]] = {
     val source = Source.fromFile(path)
